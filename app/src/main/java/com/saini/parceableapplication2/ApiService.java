@@ -9,4 +9,8 @@ public interface ApiService {
 
     @GET("v2/list")
     Call<List<PhotoModel>> getPhotos();
+
+
+//    @GET("posts/1")
+//    Call<PostModel> getPost();
 }

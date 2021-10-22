@@ -25,6 +25,7 @@ public class ReceivingActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         mList = (ArrayList<String>) intent.getSerializableExtra("ApiData");
+//        mList = (ArrayList<String>) intent.getSerializableExtra("post");
         mAuthor.setText(mList.get(1));
         mId.setText(mList.get(0));
         mUrl.setText(mList.get(2));
